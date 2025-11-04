@@ -1,34 +1,13 @@
 {
-  "name": "react-kavia",
-  "version": "0.1.0",
+  "name": "frontendservice-deprecated",
+  "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
-  },
+  "description": "Deprecated container. Use weekly-insight-report-platform-21911-21923/reports_frontend instead.",
+  "license": "UNLICENSED",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "echo \"FrontendService is deprecated. No build performed.\" && exit 0",
+    "start": "echo \"FrontendService is deprecated. No start performed.\" && exit 0",
+    "test": "echo \"FrontendService is deprecated. No tests to run.\" && exit 0"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
-  }
+  "deprecated": true
 }
